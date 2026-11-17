@@ -1,0 +1,1066 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>npxvip免费在线观看-片单与观看指南</title>
+<meta name="description" content="npxvip免费在线观看频道以片单、观看路径和版本差异为线索，整理本周更新的分集记录、清晰度与字幕情况，并给出选片判断表、常见问题与观众反馈，帮助快速定位合适条目。">
+<meta name="keywords" content="npxvip免费在线观看">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f3a5f'/%3E%3Cpath d='M16 20h10v24H16zM30 20l18 12-18 12z' fill='%23f2c14e'/%3E%3C/svg%3E">
+<style>
+:root{
+  --navy:#1f3a5f;
+  --navy-deep:#152a45;
+  --ink:#1d2430;
+  --ink-soft:#4a5568;
+  --paper:#f7f5f0;
+  --card:#ffffff;
+  --line:#dcd8cf;
+  --gold:#c8992e;
+  --gold-soft:#f2c14e;
+  --teal:#2d6f6a;
+  --danger:#a8442c;
+  --radius-s:6px;
+  --radius-m:12px;
+  --radius-l:20px;
+  --shadow-s:0 1px 2px rgba(21,42,69,.08);
+  --shadow-m:0 6px 18px rgba(21,42,69,.10);
+  --sp-1:6px;
+  --sp-2:12px;
+  --sp-3:20px;
+  --sp-4:32px;
+  --sp-5:52px;
+  --fs-h1:clamp(1.9rem,4.2vw,3rem);
+  --fs-h2:clamp(1.3rem,2.2vw,1.65rem);
+  --fs-h3:1.06rem;
+  --fs-body:1rem;
+  --fs-small:.86rem;
+  --sticky-h:104px;
+  --font:"Noto Serif SC","Songti SC","SimSun",serif;
+  --font-sans:"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--sticky-h)}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{animation:none!important;transition:none!important}
+}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--font-sans);
+  font-size:var(--fs-body);
+  line-height:1.75;
+}
+a{color:var(--navy);text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible{
+  outline:3px solid var(--gold);
+  outline-offset:2px;
+  border-radius:4px;
+}
+img{max-width:100%;display:block}
+h1,h2,h3{font-family:var(--font);line-height:1.35;color:var(--navy-deep);margin:0 0 var(--sp-2)}
+p{margin:0 0 var(--sp-2)}
+ul,ol{margin:0 0 var(--sp-2);padding-left:1.2em}
+.wrap{width:min(1180px,100% - 2.5rem);margin-inline:auto}
+
+/* ===== 吸顶区 ===== */
+.sticky-top{position:sticky;top:0;z-index:60;box-shadow:var(--shadow-s)}
+.notice{
+  background:var(--navy-deep);
+  color:#e9eef5;
+  font-size:var(--fs-small);
+  padding:8px var(--sp-3);
+  display:flex;
+  gap:var(--sp-2);
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  letter-spacing:.02em;
+}
+.notice .tag{
+  background:var(--gold-soft);
+  color:var(--navy-deep);
+  font-weight:700;
+  border-radius:999px;
+  padding:1px 10px;
+  font-size:.78rem;
+  white-space:nowrap;
+}
+.site-head{background:rgba(255,255,255,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+.head-inner{display:flex;align-items:center;gap:var(--sp-3);padding:10px 0;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--font);font-weight:700;font-size:1.12rem;color:var(--navy-deep);white-space:nowrap}
+.brand svg{width:34px;height:34px;flex:none}
+.head-nav{display:flex;gap:2px;flex-wrap:wrap;margin-left:auto}
+.head-nav a{
+  font-size:.9rem;padding:6px 10px;border-radius:var(--radius-s);color:var(--ink-soft);
+}
+.head-nav a:hover{background:#eef2f7;color:var(--navy);text-decoration:none}
+.head-tools{display:flex;align-items:center;gap:8px}
+.menu-btn{
+  display:none;background:#eef2f7;border:1px solid var(--line);
+  border-radius:var(--radius-s);padding:7px 12px;font-size:.9rem;
+  font-family:var(--font-sans);color:var(--navy);cursor:pointer;
+}
+.search-wrap{position:relative}
+.search-wrap input{
+  font-family:var(--font-sans);font-size:.88rem;
+  padding:7px 12px;border:1px solid var(--line);border-radius:999px;
+  width:180px;background:#fbfaf7;color:var(--ink);
+}
+.search-fb{
+  position:absolute;top:calc(100% + 6px);right:0;width:250px;
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-m);
+  box-shadow:var(--shadow-m);padding:10px 12px;font-size:.85rem;
+  display:none;
+}
+.search-fb.on{display:block}
+.search-fb ul{margin:6px 0 0;padding-left:1em}
+.search-fb a{font-size:.85rem}
+.search-fb .none{color:var(--danger)}
+
+/* ===== 首屏 ===== */
+.hero{
+  background:
+    radial-gradient(circle at 88% 12%, rgba(242,193,78,.24), transparent 42%),
+    linear-gradient(160deg,#1f3a5f 0%,#152a45 62%,#1b3350 100%);
+  color:#eef2f7;
+  padding:var(--sp-5) 0 var(--sp-4);
+  overflow:hidden;
+}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:var(--sp-4);align-items:center}
+.hero .kicker{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:.8rem;letter-spacing:.16em;color:var(--gold-soft);
+  border:1px solid rgba(242,193,78,.45);border-radius:999px;
+  padding:4px 14px;margin-bottom:var(--sp-3);
+}
+.hero h1{color:#fff;font-size:var(--fs-h1);margin-bottom:var(--sp-3);letter-spacing:.01em}
+.hero p.lead{color:#cfdae7;max-width:34em;margin-bottom:var(--sp-3)}
+.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:var(--sp-3)}
+.btn{
+  display:inline-block;padding:10px 20px;border-radius:999px;
+  font-size:.92rem;font-weight:600;transition:transform .15s ease;
+}
+.btn:hover{transform:translateY(-2px);text-decoration:none}
+.btn-gold{background:var(--gold-soft);color:var(--navy-deep)}
+.btn-ghost{border:1px solid rgba(255,255,255,.5);color:#fff}
+.hero-stats{display:flex;gap:var(--sp-4);flex-wrap:wrap;color:#cfdae7;font-size:.85rem}
+.hero-stats strong{display:block;font-family:var(--font);font-size:1.5rem;color:#fff;line-height:1.2}
+.hero-art{position:relative;min-height:280px}
+.hero-art svg{width:100%;height:auto}
+
+/* ===== 主区骨架 ===== */
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:var(--sp-4);padding:var(--sp-4) 0 var(--sp-5)}
+.main-col{min-width:0}
+.side-col{min-width:0}
+section.block{margin-bottom:var(--sp-5)}
+.block-head{margin-bottom:var(--sp-3);display:flex;align-items:baseline;gap:var(--sp-2);flex-wrap:wrap}
+.block-head h2{font-size:var(--fs-h2);margin:0}
+.block-head .sub{font-size:var(--fs-small);color:var(--ink-soft)}
+.eyebrow{font-size:.76rem;letter-spacing:.18em;color:var(--gold);font-weight:700;margin-bottom:6px;display:block}
+
+/* 概览 */
+.overview{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--sp-2)}
+.ov-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);padding:var(--sp-3);box-shadow:var(--shadow-s)}
+.ov-card h3{font-size:1rem;margin-bottom:6px}
+.ov-card p{font-size:.9rem;color:var(--ink-soft);margin:0}
+.ov-num{font-family:var(--font);font-size:1.7rem;color:var(--teal);line-height:1.1}
+
+/* 精选卡片网格 */
+.card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--sp-3)}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);
+  overflow:hidden;box-shadow:var(--shadow-s);display:flex;flex-direction:column;
+  transition:transform .18s ease,box-shadow .18s ease;
+}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow-m)}
+.card img{width:100%;height:150px;object-fit:cover}
+.card-body{padding:var(--sp-2) var(--sp-3) var(--sp-3);display:flex;flex-direction:column;gap:6px;flex:1}
+.card-body h3{font-size:1rem;margin:0}
+.card-body p{font-size:.86rem;color:var(--ink-soft);margin:0}
+.card-meta{display:flex;gap:8px;flex-wrap:wrap;font-size:.76rem;color:var(--ink-soft);margin-top:auto;padding-top:6px;border-top:1px dashed var(--line)}
+.pill{background:#eef2f7;color:var(--navy);border-radius:999px;padding:1px 9px;font-size:.75rem}
+
+/* 最新更新：时间线紧凑列表 */
+.update-list{list-style:none;padding:0;margin:0;border-left:2px solid var(--line);margin-left:6px}
+.update-list li{position:relative;padding:0 0 var(--sp-3) var(--sp-3)}
+.update-list li::before{
+  content:"";position:absolute;left:-6px;top:8px;width:10px;height:10px;border-radius:50%;
+  background:var(--gold-soft);border:2px solid var(--paper);
+}
+.update-list time{font-size:.78rem;color:var(--gold);font-weight:700;letter-spacing:.03em}
+.update-list h3{font-size:.98rem;margin:2px 0 2px}
+.update-list p{font-size:.86rem;color:var(--ink-soft);margin:0}
+
+/* 分类入口：标签索引 */
+.tag-index{display:flex;flex-wrap:wrap;gap:8px}
+.tag-index a{
+  background:#fff;border:1px solid var(--line);border-radius:999px;
+  padding:6px 14px;font-size:.86rem;color:var(--ink);transition:border-color .15s,color .15s;
+}
+.tag-index a:hover{border-color:var(--gold);color:var(--navy);text-decoration:none}
+.tag-index a small{color:var(--ink-soft);margin-left:5px}
+
+/* 深度解析 */
+.deep{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--gold);border-radius:var(--radius-m);padding:var(--sp-4)}
+.deep h2{font-size:var(--fs-h2)}
+.deep h3{font-size:var(--fs-h3);margin-top:var(--sp-3)}
+.deep p{color:#333b48}
+.quote-card{
+  margin:var(--sp-3) 0;padding:var(--sp-3);background:#f4f1e9;
+  border-radius:var(--radius-m);font-family:var(--font);font-size:1.02rem;color:var(--navy-deep);
+  border-left:3px solid var(--teal);
+}
+.quote-card cite{display:block;font-family:var(--font-sans);font-size:.78rem;color:var(--ink-soft);margin-top:8px;font-style:normal}
+
+/* 对照表 */
+.cmp{width:100%;border-collapse:collapse;font-size:.87rem;margin:var(--sp-2) 0 var(--sp-3)}
+.cmp caption{text-align:left;font-size:.8rem;color:var(--ink-soft);padding-bottom:6px}
+.cmp th,.cmp td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.cmp th{background:#eef2f7;color:var(--navy-deep);font-weight:700;white-space:nowrap}
+.cmp tr:nth-child(even) td{background:#fbfaf7}
+
+/* 步骤 */
+.steps{counter-reset:st;list-style:none;padding:0;display:grid;gap:var(--sp-2)}
+.steps li{
+  counter-increment:st;position:relative;padding:var(--sp-3) var(--sp-3) var(--sp-3) 62px;
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);
+}
+.steps li::before{
+  content:counter(st);position:absolute;left:16px;top:18px;width:30px;height:30px;
+  display:grid;place-items:center;border-radius:50%;background:var(--navy);color:#fff;
+  font-family:var(--font);font-weight:700;font-size:.95rem;
+}
+.steps h3{font-size:.98rem;margin:0 0 4px}
+.steps p{font-size:.88rem;color:var(--ink-soft);margin:0}
+
+/* FAQ */
+.faq details{border:1px solid var(--line);border-radius:var(--radius-m);background:var(--card);margin-bottom:10px;overflow:hidden}
+.faq summary{
+  cursor:pointer;padding:12px var(--sp-3);font-weight:600;font-size:.95rem;
+  list-style:none;display:flex;justify-content:space-between;gap:10px;color:var(--navy-deep);
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"＋";color:var(--gold);font-weight:700}
+.faq details[open] summary::after{content:"－"}
+.faq .ans{padding:0 var(--sp-3) var(--sp-3);font-size:.9rem;color:var(--ink-soft)}
+
+/* 评论 */
+.comments{display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-2)}
+.cmt{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);padding:var(--sp-3)}
+.cmt .who{display:flex;align-items:center;gap:8px;font-size:.82rem;color:var(--ink-soft);margin-bottom:6px}
+.avatar{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:#fff;font-size:.78rem;font-family:var(--font);flex:none}
+.cmt p{font-size:.88rem;margin:0 0 6px}
+.cmt .ref{font-size:.78rem;color:var(--teal)}
+
+/* 资讯 紧凑 */
+.news{display:grid;gap:10px}
+.news a.news-item{
+  display:grid;grid-template-columns:64px 1fr;gap:var(--sp-2);align-items:start;
+  padding:10px 0;border-bottom:1px solid var(--line);color:inherit;
+}
+.news a.news-item:hover{text-decoration:none;background:#fbfaf7}
+.news .d{font-size:.78rem;color:var(--gold);font-weight:700}
+.news strong{display:block;font-family:var(--font);font-size:.96rem;color:var(--navy-deep)}
+.news span{font-size:.84rem;color:var(--ink-soft)}
+
+/* 相关推荐标签 */
+.rel-tags{display:flex;flex-wrap:wrap;gap:10px}
+.rel-tags a{
+  background:var(--navy);color:#fff;border-radius:var(--radius-s);
+  padding:7px 14px;font-size:.86rem;
+}
+.rel-tags a:hover{background:var(--teal);text-decoration:none}
+
+/* 侧栏 */
+.side-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-m);padding:var(--sp-3);margin-bottom:var(--sp-3);box-shadow:var(--shadow-s)}
+.side-card h2,.side-card h3{font-size:1rem;margin-bottom:var(--sp-2)}
+.side-nav{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.side-nav a{display:block;padding:6px 10px;border-radius:var(--radius-s);font-size:.88rem;color:var(--ink-soft);border-left:3px solid transparent}
+.side-nav a.active{background:#eef2f7;color:var(--navy);border-left-color:var(--gold);font-weight:600}
+.rank{list-style:none;margin:0;padding:0;counter-reset:rk;display:grid;gap:10px}
+.rank li{counter-increment:rk;display:grid;grid-template-columns:26px 1fr;gap:8px;font-size:.87rem}
+.rank li::before{
+  content:counter(rk);font-family:var(--font);font-weight:700;color:#fff;
+  background:var(--teal);border-radius:6px;width:24px;height:24px;display:grid;place-items:center;font-size:.8rem;
+}
+.rank li:nth-child(1)::before{background:var(--gold)}
+.rank small{display:block;color:var(--ink-soft);font-size:.78rem}
+.note{font-size:.8rem;color:var(--ink-soft);margin:0}
+
+/* 时间线补充板块 */
+.timeline{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.timeline li{display:grid;grid-template-columns:104px 1fr;gap:var(--sp-2);padding:12px 0;border-top:1px dashed var(--line)}
+.timeline time{font-size:.8rem;color:var(--teal);font-weight:700}
+.timeline p{font-size:.87rem;margin:0;color:var(--ink-soft)}
+.timeline strong{color:var(--ink);font-family:var(--font);font-size:.94rem;display:block}
+
+/* 页尾 */
+footer{background:var(--navy-deep);color:#c8d4e2;padding:var(--sp-5) 0 var(--sp-4);font-size:.88rem}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:var(--sp-4)}
+footer h3{color:#fff;font-size:.95rem;margin-bottom:var(--sp-2)}
+footer a{color:#c8d4e2;display:block;padding:3px 0;font-size:.86rem}
+footer a:hover{color:var(--gold-soft)}
+footer .foot-brand{font-family:var(--font);font-size:1.2rem;color:#fff;font-weight:700;margin-bottom:8px;display:flex;gap:8px;align-items:center}
+footer .foot-brand svg{width:28px;height:28px}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.14);margin-top:var(--sp-4);padding-top:var(--sp-3);font-size:.8rem;color:#93a5ba;display:flex;justify-content:space-between;gap:var(--sp-2);flex-wrap:wrap}
+
+/* 回到顶部 */
+.to-top{
+  position:fixed;right:18px;bottom:22px;z-index:70;
+  background:var(--navy);color:#fff;border:none;border-radius:50%;
+  width:44px;height:44px;font-size:1rem;cursor:pointer;box-shadow:var(--shadow-m);
+  opacity:0;visibility:hidden;transform:translateY(6px);transition:opacity .2s,transform .2s,visibility .2s;
+}
+.to-top.show{opacity:1;visibility:visible;transform:none}
+
+/* ===== 响应式 ===== */
+@media (max-width:1024px){
+  .layout{grid-template-columns:1fr}
+  .side-col{order:2}
+  .main-col{order:1}
+  .card-grid{grid-template-columns:repeat(2,1fr)}
+  .overview{grid-template-columns:repeat(2,1fr)}
+  .hero-grid{grid-template-columns:1fr}
+  .hero-art{max-width:420px;margin-inline:auto}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:720px){
+  :root{--sticky-h:112px}
+  .head-nav{
+    display:none;width:100%;flex-direction:column;gap:2px;
+    padding:8px 0 4px;border-top:1px solid var(--line);margin-top:6px;
+  }
+  .head-nav.open{display:flex}
+  .head-nav a{padding:9px 8px;font-size:.95rem;border-bottom:1px solid #f0ede6}
+  .menu-btn{display:inline-block}
+  .head-inner{gap:10px}
+  .head-tools{margin-left:auto;flex-wrap:wrap}
+  .search-wrap input{width:140px}
+  .search-fb{right:auto;left:0;width:min(260px,86vw)}
+  .card-grid,.overview,.comments{grid-template-columns:1fr}
+  .deep{padding:var(--sp-3)}
+  .timeline li{grid-template-columns:1fr;gap:2px}
+  .foot-grid{grid-template-columns:1fr}
+  .cmp{display:block;overflow-x:auto}
+  .notice{justify-content:flex-start}
+  .hero{padding:var(--sp-4) 0}
+  .hero-stats{gap:var(--sp-3)}
+}
+@media (max-width:380px){
+  .wrap{width:calc(100% - 1.6rem)}
+  .search-wrap input{width:118px}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="sticky-top">
+  <div class="notice" role="region" aria-label="频道更新公告">
+    <span class="tag">更新</span>
+    <span>11 月 7 日 22:10 追加《雾港档案》第 4 集 1080P 与繁中字幕；11 月 6 日修正《旧城墙下》第 2 集音轨不同步。</span>
+    <a href="/#updates" style="color:#f2c14e">查看记录 →</a>
+  </div>
+  <header class="site-head">
+    <div class="wrap head-inner">
+      <a class="brand" href="/#top" aria-label="返回首页顶部">
+        <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
+          <rect width="64" height="64" rx="14" fill="#1f3a5f"/>
+          <path d="M16 20h10v24H16z" fill="#f2c14e"/>
+          <path d="M30 20l18 12-18 12z" fill="#ffffff" opacity=".92"/>
+          <circle cx="50" cy="46" r="4" fill="#2d6f6a"/>
+        </svg>
+        <span>npxvip免费在线观看</span>
+      </a>
+      <nav class="head-nav" id="headNav" aria-label="主题导航">
+        <a href="/#overview">片库概览</a>
+        <a href="/#picks">本周精选</a>
+        <a href="/#updates">更新记录</a>
+        <a href="/#channels">分类频道</a>
+        <a href="/#deep">深度解析</a>
+        <a href="/#guide">体验指南</a>
+        <a href="/#faq">常见问题</a>
+        <a href="/#reviews">观众反馈</a>
+      </nav>
+      <div class="head-tools">
+        <div class="search-wrap">
+          <input type="search" id="q" placeholder="搜片名／演员／标签" aria-label="站内搜索" autocomplete="off">
+          <div class="search-fb" id="fb" role="status" aria-live="polite"></div>
+        </div>
+        <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="headNav">菜单</button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="top">
+
+  <!-- 首屏 -->
+  <section class="hero" aria-label="主题首屏">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="kicker">分集记录 · 清晰度 · 字幕核对</span>
+        <h1>npxvip免费在线观看</h1>
+        <p class="lead">按片单核对分集与字幕，把“能不能看、看到哪一版、缺哪一段”写清楚。频道跟踪 11 月首周的 42 个条目，更新以分钟级时间戳标注，重点记录清晰度切换与字幕修正。</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="/#picks">看本周精选片单</a>
+          <a class="btn btn-ghost" href="/#updates">查最新更新记录</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>42</strong>在跟条目</div>
+          <div><strong>118</strong>分集记录</div>
+          <div><strong>9</strong>字幕版本</div>
+          <div><strong>11-07</strong>最近核对日</div>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 420 320" role="img" aria-label="片单与播放轨道的抽象构图">
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f2c14e" stop-opacity=".9"/>
+              <stop offset="1" stop-color="#2d6f6a" stop-opacity=".8"/>
+            </linearGradient>
+          </defs>
+          <rect x="18" y="22" width="270" height="176" rx="14" fill="#223f66" stroke="#3d5b83"/>
+          <rect x="34" y="40" width="238" height="118" rx="8" fill="#152a45"/>
+          <path d="M130 74l52 32-52 32z" fill="url(#g1)"/>
+          <rect x="34" y="168" width="150" height="8" rx="4" fill="#3d5b83"/>
+          <rect x="34" y="168" width="92" height="8" rx="4" fill="#f2c14e"/>
+          <circle cx="126" cy="172" r="7" fill="#fff"/>
+          <rect x="196" y="60" width="196" height="14" rx="7" fill="#fff" opacity=".22"/>
+          <rect x="196" y="86" width="150" height="14" rx="7" fill="#fff" opacity=".16"/>
+          <rect x="196" y="112" width="172" height="14" rx="7" fill="#fff" opacity=".12"/>
+          <g transform="translate(232,196)">
+            <rect x="0" y="0" width="168" height="96" rx="10" fill="#ffffff" opacity=".96"/>
+            <rect x="14" y="16" width="86" height="9" rx="4" fill="#1f3a5f"/>
+            <rect x="14" y="34" width="130" height="7" rx="3" fill="#c9cfd8"/>
+            <rect x="14" y="48" width="112" height="7" rx="3" fill="#c9cfd8"/>
+            <rect x="14" y="70" width="46" height="14" rx="7" fill="#f2c14e"/>
+            <rect x="68" y="70" width="40" height="14" rx="7" fill="#2d6f6a" opacity=".8"/>
+          </g>
+          <g transform="translate(42,220)">
+            <rect x="0" y="0" width="150" height="82" rx="10" fill="#ffffff" opacity=".14"/>
+            <rect x="14" y="16" width="60" height="8" rx="4" fill="#fff" opacity=".7"/>
+            <rect x="14" y="32" width="110" height="6" rx="3" fill="#fff" opacity=".4"/>
+            <rect x="14" y="46" width="96" height="6" rx="3" fill="#fff" opacity=".4"/>
+            <rect x="14" y="60" width="70" height="6" rx="3" fill="#fff" opacity=".4"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap layout">
+    <div class="main-col">
+
+      <!-- 1 领域概览 -->
+      <section class="block" id="overview">
+        <div class="block-head">
+          <div>
+            <span class="eyebrow">频道地图</span>
+            <h2>片库概览：这一周在跟什么</h2>
+          </div>
+          <span class="sub">核对截至 11-08 06:30</span>
+        </div>
+        <p>频道按“条目—分集—版本”三层记录。条目是片名，分集指单集或分段，版本指同一分集的不同清晰度与字幕组合。11 月 1 日至 11 月 7 日，新增条目 6 个，补充分集 23 段，修正音轨 2 处。</p>
+        <div class="overview">
+          <div class="ov-card">
+            <div class="ov-num">23</div>
+            <h3>补充分集</h3>
+            <p>集中在周三与周五晚间，其中《雾港档案》第 4 集与《旧城墙下》第 5 集为整段补录。</p>
+          </div>
+          <div class="ov-card">
+            <div class="ov-num">9</div>
+            <h3>字幕版本</h3>
+            <p>简中 4 个、繁中 3 个、双语 2 个。双语版仅覆盖 2 个条目，时间轴偏差在 0.3 秒内。</p>
+          </div>
+          <div class="ov-card">
+            <div class="ov-num">2</div>
+            <h3>音轨修正</h3>
+            <p>《旧城墙下》第 2 集左声道缺失，11-06 15:40 重传；《夜行列车》第 3 集片头 8 秒静音。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2 精选内容推荐 -->
+      <section class="block" id="picks">
+        <div class="block-head">
+          <div>
+            <span class="eyebrow">本周精选</span>
+            <h2>值得先看的六个条目</h2>
+          </div>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <img src="https://picsum.photos/seed/npxvip-harbor/560/340" width="560" height="340" loading="lazy" alt="雾港码头夜景，集装箱与灯塔的光斑">
+            <div class="card-body">
+              <h3>雾港档案 第 4 集</h3>
+              <p>双线叙事收束到 27 分 40 秒的录音带，繁中字幕把“公证”译成“见证”，语义有偏移。</p>
+              <div class="card-meta"><span class="pill">悬疑</span><span class="pill">1080P</span><span>11-07</span></div>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://picsum.photos/seed/npxvip-wall/560/340" width="560" height="340" loading="lazy" alt="老城墙下的石阶与路灯，雨后有积水">
+            <div class="card-body">
+              <h3>旧城墙下 第 5 集</h3>
+              <p>第 2 集音轨问题已修，这集回到单线叙事，片尾 3 分钟访谈是新增素材。</p>
+              <div class="card-meta"><span class="pill">城市纪录</span><span class="pill">简中</span><span>11-06</span></div>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://picsum.photos/seed/npxvip-train/560/340" width="560" height="340" loading="lazy" alt="夜行列车车窗外的灯光拉成细线">
+            <div class="card-body">
+              <h3>夜行列车 第 3 集</h3>
+              <p>片头 8 秒静音是母带问题，不是播放故障；43 分处有 1 秒画面跳帧。</p>
+              <div class="card-meta"><span class="pill">公路</span><span class="pill">720P</span><span>11-05</span></div>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://picsum.photos/seed/npxvip-market/560/340" width="560" height="340" loading="lazy" alt="清晨菜市场的塑料棚与手写价牌">
+            <div class="card-body">
+              <h3>早市七点半</h3>
+              <p>24 分钟单集，记录 6 个摊位。现场声保留完整，没有配乐，适合戴耳机。</p>
+              <div class="card-meta"><span class="pill">生活</span><span class="pill">双语</span><span>11-04</span></div>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://picsum.photos/seed/npxvip-archive/560/340" width="560" height="340" loading="lazy" alt="档案室铁柜与成排编号文件夹">
+            <div class="card-body">
+              <h3>编号 17 的档案</h3>
+              <p>三集短剧，每集 18 分钟。第二集的年份字幕前后不一致，已在 11-03 标注。</p>
+              <div class="card-meta"><span class="pill">剧情</span><span class="pill">繁中</span><span>11-03</span></div>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://picsum.photos/seed/npxvip-river/560/340" width="560" height="340" loading="lazy" alt="傍晚河堤上骑自行车的人影">
+            <div class="card-body">
+              <h3>河堤慢行</h3>
+              <p>51 分钟长镜头，压缩码率偏高，暗部有块状噪点，建议切 1080P 版本。</p>
+              <div class="card-meta"><span class="pill">纪录</span><span class="pill">1080P</span><span>11-02</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 3 最新更新 -->
+      <section class="block" id="updates">
+        <div class="block-head">
+          <div>
+            <span class="eyebrow">逐条可查</span>
+            <h2>最新更新记录</h2>
+          </div>
+          <span class="sub">时间戳为核对时刻</span>
+        </div>
+        <ol class="update-list">
+          <li>
+            <time datetime="2026-11-07T22:10">11-07 22:10</time>
+            <h3>《雾港档案》第 4 集追加繁中字幕</h3>
+            <p>同时上线 1080P 版本，文件大小 1.4GB。字幕组保留“公证”译法，未改“见证”。</p>
+          </li>
+          <li>
+            <time datetime="2026-11-07T09:25">11-07 09:25</time>
+            <h3>《早市七点半》双语字幕时间轴校正</h3>
+            <p>第 12 分至 14 分处提前 0.4 秒，重压后对齐；其余段落未动。</p>
+          </li>
+          <li>
+            <time datetime="2026-11-06T15:40">11-06 15:40</time>
+            <h3>《旧城墙下》第 2 集重传</h3>
+            <p>修复左声道缺失，左右声道电平差从 9dB 降到 1dB 以内。第 5 集同日补录。</p>
+          </li>
+          <li>
+            <time datetime="2026-11-05T20:05">11-05 20:05</time>
+            <h3>《夜行列车》第 3 集加注片头说明</h3>
+            <p>片头 8 秒静音来自母带，非播放问题；说明文字放在条目详情首行。</p>
+          </li>
+          <li>
+            <time datetime="2026-11-04T11:30">11-04 11:30</time>
+            <h3>《河堤慢行》补 1080P 版本</h3>
+            <p>原 720P 版本保留，暗部块状噪点在 1080P 下减轻，但慢镜头仍有轻微拖影。</p>
+          </li>
+          <li>
+            <time datetime="2026-11-03T18:15">11-03 18:15</time>
+            <h3>《编号 17 的档案》第 2 集年份标注说明</h3>
+            <p>剧中字幕出现 1998 与 1999 两个年份，核对后以 1998 为准，标注为转述差异。</p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- 4 分类入口 -->
+      <section class="block" id="channels">
+        <div class="block-head">
+          <div>
+            <span class="eyebrow">按需找片</span>
+            <h2>分类频道与标签索引</h2>
+          </div>
+        </div>
+        <p>标签后面的数字是当前在跟条目数。标签可叠加，例如“悬疑 + 繁中”只剩 3 个条目，适合先缩范围再逐条核对分集。</p>
+        <div class="tag-index">
+          <a href="/#picks">悬疑短剧<small>7</small></a>
+          <a href="/#picks">城市纪录<small>6</small></a>
+          <a href="/#picks">公路叙事<small>4</small></a>
+          <a href="/#picks">深夜档<small>5</small></a>
+          <a href="/#picks">单集长镜头<small>3</small></a>
+          <a href="/#picks">双语字幕<small>2</small></a>
+          <a href="/#picks">繁中字幕<small>3</small></a>
+          <a href="/#picks">简中字幕<small>4</small></a>
+          <a href="/#picks">访谈加料<small>3</small></a>
+          <a href="/#picks">档案题材<small>4</small></a>
+          <a href="/#picks">市场与摊贩<small>2</small></a>
+          <a href="/#picks">河岸风景<small>2</small></a>
+        </div>
+      </section>
+
+      <!-- 5 深度解析 -->
+      <section class="block deep" id="deep">
+        <span class="eyebrow">深度解析</span>
+        <h2>“能看”与“看对”之间，差的是分集版本表</h2>
+        <p>判断一个条目是否可用，多数人只看片名能不能点开。更可靠的做法是看分集版本表：同一集有几个清晰度、字幕属于哪一版、音轨有没有修过。下面三个判断都带可核对的时间与数字，可以拿去反驳。</p>
+
+        <h3>判断一：繁中字幕的术语偏移，比缺字幕更影响理解</h3>
+        <p>《雾港档案》第 4 集 27 分 40 秒，录音带里出现“公证”一词。繁中版译为“见证”，简中版保留“公证”。两者在剧情里指向不同的法律程序：公证有第三方机构介入，见证只要求在场。这个偏移让第 4 集结尾的举证逻辑变了味。11-07 22:10 上线时，字幕组选择保留“见证”，没有改动。</p>
+        <div class="quote-card">
+          “同一句台词，两个版本差一个词，观众对谁在说谎的判断就会反过来。”
+          <cite>—— 条目讨论区 11-07 23:02 的一条整理，原文附了 3 张截图</cite>
+        </div>
+
+        <h3>判断二：1080P 不等于更清楚，码率才是分水岭</h3>
+        <p>《河堤慢行》在 11-04 补了 1080P。实测文件 51 分钟、约 980MB，平均码率 2.6Mbps；原 720P 为 1.9Mbps。暗部块状噪点确实减轻，但慢镜头拖影仍在，原因是源素材帧率 24fps 被压到 25fps。换清晰度解决不了帧率问题，这一点在 11-04 11:30 的补版说明里也写了。</p>
+
+        <table class="cmp">
+          <caption>《河堤慢行》两版对照，数据取自 11-04 补版记录</caption>
+          <tr><th>项目</th><th>720P 版</th><th>1080P 版</th></tr>
+          <tr><td>平均码率</td><td>1.9Mbps</td><td>2.6Mbps</td></tr>
+          <tr><td>文件大小</td><td>约 700MB</td><td>约 980MB</td></tr>
+          <tr><td>暗部噪点</td><td>明显块状</td><td>减轻，未消失</td></tr>
+          <tr><td>慢镜头拖影</td><td>存在</td><td>存在</td></tr>
+        </table>
+
+        <h3>判断三：更新记录的价值在于“哪一段被改过”</h3>
+        <p>《旧城墙下》第 2 集 11-06 15:40 重传，修的是左声道缺失。修复前后左右声道电平差从 9dB 降到 1dB 以内。如果只看“已重传”三个字，会误以为整集重制；实际画面未动，第 5 集才是同日补录的新素材。把“重传”和“补录”混为一谈，会导致对更新频率的高估。11 月 1 日至 7 日，真正的新增分集是 23 段，其中补录 9 段、修复 2 段、字幕调整 12 段。</p>
+        <ul>
+          <li>可核对项：11-06 15:40 重传记录、左右声道电平差 9dB→1dB。</li>
+          <li>可反驳点：若认为 1080P 必然解决拖影，用《河堤慢行》帧率 24→25fps 的说明即可反驳。</li>
+          <li>待确认项：《编号 17 的档案》第 2 集 1998/1999 年份差异，目前只有剧中字幕与一条讨论区转述，缺原始档案页。</li>
+        </ul>
+      </section>
+
+      <!-- 6 体验指南 -->
+      <section class="block" id="guide">
+        <div class="block-head">
+          <div>
+            <span class="eyebrow">四步核对</span>
+            <h2>体验指南：从片名到可看版本</h2>
+          </div>
+        </div>
+        <ol class="steps">
+          <li>
+            <h3>先看分集版本表，不看封面</h3>
+            <p>封面只说明题材。分集版本表会列出每集的清晰度与字幕版本，缺哪一段一眼可见。</p>
+          </li>
+          <li>
+            <h3>核对更新时间戳，而非“最新”标签</h3>
+            <p>“最新”是相对说法，时间戳是具体时刻。11-07 22:10 与 11-06 15:40 相差一天，改动范围完全不同。</p>
+          </li>
+          <li>
+            <h3>遇到静音或跳帧，先查说明行</h3>
+            <p>《夜行列车》第 3 集片头 8 秒静音已在说明行标注为母带问题，重下无意义。</p>
+          </li>
+          <li>
+            <h3>字幕争议记下时间点</h3>
+            <p>记到分秒，例如 27 分 40 秒，方便与他人对照同一句台词，避免各说各的。</p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- 7 FAQ -->
+      <section class="block faq" id="faq">
+        <div class="block-head">
+          <div>
+            <span class="eyebrow">问答</span>
+            <h2>常见问题</h2>
+          </div>
+        </div>
+        <details>
+          <summary>同一集有 720P 和 1080P，选哪个更稳？</summary>
+          <div class="ans">以《河堤慢行》为例，1080P 平均码率 2.6Mbps，暗部噪点减轻，但慢镜头拖影两版都有。若设备解码吃力，720P 反而更少卡顿；若在意暗部细节，选 1080P。</div>
+        </details>
+        <details>
+          <summary>繁中字幕里“见证”和简中“公证”差在哪？</summary>
+          <div class="ans">差在程序主体。公证需第三方机构介入，见证只要求有人在场。《雾港档案》第 4 集 27 分 40 秒的举证逻辑依赖这一点，两版译法会让观众对谁在说谎得出不同判断。</div>
+        </details>
+        <details>
+          <summary>《夜行列车》第 3 集片头没有声音，是播放问题吗？</summary>
+          <div class="ans">不是。11-05 20:05 的说明行写得很清楚：片头 8 秒静音来自母带。43 分处的 1 秒跳帧同样是源文件问题，重下不解决。</div>
+        </details>
+        <details>
+          <summary>《旧城墙下》第 2 集重传后，画面也重制了吗？</summary>
+          <div class="ans">没有。11-06 15:40 的重传只修左声道缺失，左右声道电平差从 9dB 降到 1dB 以内，画面未动。同日补录的是第 5 集，属于新增素材，两者不要混为一谈。</div>
+        </details>
+        <details>
+          <summary>《编号 17 的档案》第 2 集到底哪一年？</summary>
+          <div class="ans">剧中字幕出现过 1998 与 1999。11-03 18:15 的标注以 1998 为准，但依据是剧中字幕与一条讨论区转述，原始档案页尚未核对，属于待确认项。</div>
+        </details>
+        <details>
+          <summary>双语字幕版覆盖哪些条目？</summary>
+          <div class="ans">目前 2 个：《早市七点半》与《河堤慢行》。前者在 11-07 09:25 校正过时间轴，12 分至 14 分处提前 0.4 秒已重压对齐；后者双语版未做二次校正。</div>
+        </details>
+      </section>
+
+      <!-- 8 用户评论 -->
+      <section class="block" id="reviews">
+        <div class="block-head">
+          <div>
+            <span class="eyebrow">观众反馈</span>
+            <h2>条目讨论区摘录</h2>
+          </div>
+        </div>
+        <div class="comments">
+          <div class="cmt">
+            <div class="who"><span class="avatar">林</span><span>林间小径 · 11-07 23:02</span></div>
+            <p>第 4 集 27 分 40 秒那句，繁中写“见证”，简中写“公证”，我两边对照看，结尾谁在说谎真的会反过来。</p>
+            <span class="ref">指向：《雾港档案》第 4 集</span>
+          </div>
+          <div class="cmt">
+            <div class="who"><span class="avatar">周</span><span>周末修片 · 11-07 10:11</span></div>
+            <p>《早市七点半》12 分到 14 分的时间轴终于对齐了，之前那 0.4 秒差得我总以为是自己耳机延迟。</p>
+            <span class="ref">指向：《早市七点半》双语版</span>
+          </div>
+          <div class="cmt">
+            <div class="who"><span class="avatar">陈</span><span>陈小满 · 11-06 16:20</span></div>
+            <p>左声道修好之后敢戴耳机了。<span class="ref">《旧城墙下》第 2 集</span>之前只有右边有声音，听着别扭。</p>
+            <span class="ref">指向：11-06 15:40 重传</span>
+          </div>
+          <div class="cmt">
+            <div class="who"><span class="avatar">何</span><span>何夕 · 11-06 09:48</span></div>
+            <p>1080P 出来我第一时间换了，结果慢镜头还是有拖影。后来翻到补版说明才看到 24 帧压 25 帧，白折腾。</p>
+            <span class="ref">指向：《河堤慢行》1080P</span>
+          </div>
+          <div class="cmt">
+            <div class="who"><span class="avatar">魏</span><span>魏蓝 · 11-05 21:12</span></div>
+            <p>《夜行列车》片头静音我以为是加载失败，来回刷新五次。说明行应该再靠前一点，写在详情第一行是对的。</p>
+            <span class="ref">指向：《夜行列车》第 3 集</span>
+          </div>
+          <div class="cmt">
+            <div class="who"><span class="avatar">许</span><span>许一舟 · 11-04 20:30</span></div>
+            <p>年份那事讨论区吵了两天，一边说 1998 一边说 1999。标注写了以 1998 为准，但原始档案页没贴出来，我持保留态度。</p>
+            <span class="ref">指向：《编号 17 的档案》第 2 集</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 9 相关资讯 -->
+      <section class="block" id="news">
+        <div class="block-head">
+          <div>
+            <span class="eyebrow">行业层面</span>
+            <h2>相关资讯</h2>
+          </div>
+        </div>
+        <div class="news">
+          <a class="news-item" href="/#deep">
+            <span class="d">11-07</span>
+            <span><strong>字幕组就术语译法发布统一说明</strong><span>说明列出 12 个法律与档案类术语，要求同一术语在整季保持一致，涉及 3 个在跟条目。</span></span>
+          </a>
+          <a class="news-item" href="/#updates">
+            <span class="d">11-06</span>
+            <span><strong>多条目集中重传，声道问题占多数</strong><span>本周 2 次重传中 2 次与声道相关，画面重制为 0 次，补录 9 段。</span></span>
+          </a>
+          <a class="news-item" href="/#picks">
+            <span class="d">11-05</span>
+            <span><strong>长镜头条目增加，码率成为选片依据</strong><span>51 分钟以上单集条目增至 3 个，暗部噪点与拖影是讨论区高频词。</span></span>
+          </a>
+          <a class="news-item" href="/#faq">
+            <span class="d">11-03</span>
+            <span><strong>档案题材条目增加时间标注规范</strong><span>涉及年份、编号的条目须在详情首行注明依据来源，目前 4 个条目中有 1 个缺原始页。</span></span>
+          </a>
+        </div>
+      </section>
+
+      <!-- 10 补充：时间线 -->
+      <section class="block" id="timeline">
+        <div class="block-head">
+          <div>
+            <span class="eyebrow">一周回溯</span>
+            <h2>11 月首周条目时间线</h2>
+          </div>
+        </div>
+        <ol class="timeline">
+          <li><time datetime="2026-11-01">11-01 周日</time><p><strong>《河堤慢行》首次上线 720P</strong>暗部块状噪点在讨论区被提到 4 次。</p></li>
+          <li><time datetime="2026-11-02">11-02 周一</time><p><strong>《河堤慢行》条目建立分集版本表</strong>这是本周第一个把清晰度单列成表的条目。</p></li>
+          <li><time datetime="2026-11-03">11-03 周二</time><p><strong>《编号 17 的档案》年份标注</strong>以 1998 为准，依据为剧中字幕，原始页待补。</p></li>
+          <li><time datetime="2026-11-04">11-04 周三</time><p><strong>《河堤慢行》补 1080P</strong>码率 1.9→2.6Mbps，拖影未解。</p></li>
+          <li><time datetime="2026-11-05">11-05 周四</time><p><strong>《夜行列车》片头静音说明上线</strong>说明放在详情首行，回应刷新五次的那类反馈。</p></li>
+          <li><time datetime="2026-11-06">11-06 周五</time><p><strong>《旧城墙下》第 2 集重传、第 5 集补录</strong>同一天两种改动，被讨论区误读为“整集重制”。</p></li>
+          <li><time datetime="2026-11-07">11-07 周六</time><p><strong>《雾港档案》第 4 集繁中上线</strong>术语译法争议进入讨论区，集中在一个词。</p></li>
+        </ol>
+      </section>
+
+      <!-- 11 相关推荐 -->
+      <section class="block" id="related">
+        <div class="block-head">
+          <div>
+            <span class="eyebrow">继续看</span>
+            <h2>相关推荐</h2>
+          </div>
+        </div>
+        <div class="rel-tags">
+          <a href="/#picks">雾港档案分集版本表</a>
+          <a href="/#deep">繁中字幕术语差异对照</a>
+          <a href="/#updates">旧城墙下声道修复记录</a>
+          <a href="/#picks">河堤慢行 1080P 码率实测</a>
+          <a href="/#faq">夜行列车片头静音说明</a>
+          <a href="/#picks">编号 17 的档案年份差异</a>
+          <a href="/#guide">早市七点半双语时间轴</a>
+          <a href="/#timeline">11 月首周更新回溯</a>
+        </div>
+      </section>
+
+    </div>
+
+    <aside class="side-col" aria-label="侧栏导航与榜单">
+      <div class="side-card">
+        <h2>栏目导航</h2>
+        <ul class="side-nav" id="sideNav">
+          <li><a href="/#overview">片库概览</a></li>
+          <li><a href="/#picks">本周精选</a></li>
+          <li><a href="/#updates">最新更新</a></li>
+          <li><a href="/#channels">分类频道</a></li>
+          <li><a href="/#deep">深度解析</a></li>
+          <li><a href="/#guide">体验指南</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+          <li><a href="/#reviews">观众反馈</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#timeline">条目时间线</a></li>
+          <li><a href="/#related">相关推荐</a></li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h3>讨论区热度榜</h3>
+        <ol class="rank">
+          <li><span>雾港档案 第 4 集<small>术语译法，18 条讨论</small></span></li>
+          <li><span>编号 17 的档案 第 2 集<small>年份差异，11 条讨论</small></span></li>
+          <li><span>河堤慢行<small>1080P 拖影，9 条讨论</small></span></li>
+          <li><span>旧城墙下 第 2 集<small>声道修复，7 条讨论</small></span></li>
+          <li><span>夜行列车 第 3 集<small>片头静音，6 条讨论</small></span></li>
+        </ol>
+      </div>
+      <div class="side-card">
+        <h3>记录口径</h3>
+        <p class="note">条目数为在跟片名数；分集记录按单集累计；字幕版本按语言与是否双语拆分。时间戳为核对时刻，不是上线时刻。示例条目用于说明记录方法。</p>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <rect width="64" height="64" rx="14" fill="#f2c14e"/>
+            <path d="M16 20h10v24H16z" fill="#152a45"/>
+            <path d="M30 20l18 12-18 12z" fill="#1f3a5f"/>
+          </svg>
+          npxvip免费在线观看
+        </div>
+        <p style="color:#a9bbcd">把分集、清晰度、字幕版本写成能对照的表，更新留时间戳，争议留原文与截图出处。</p>
+      </div>
+      <div>
+        <h3>内容栏目</h3>
+        <a href="/#picks">本周精选片单</a>
+        <a href="/#updates">最新更新记录</a>
+        <a href="/#deep">深度解析</a>
+        <a href="/#guide">体验指南</a>
+      </div>
+      <div>
+        <h3>查找与反馈</h3>
+        <a href="/#channels">分类频道索引</a>
+        <a href="/#faq">常见问题</a>
+        <a href="/#reviews">观众反馈</a>
+        <a href="/#related">相关推荐</a>
+      </div>
+      <div>
+        <h3>说明</h3>
+        <p class="note" style="color:#a9bbcd">页面内条目、日期与数据为示例，用于展示记录方式；实际信息以各条目详情为准。</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 npxvip免费在线观看 · 内容整理与示例说明</span>
+      <span>正文核对更新：11-08 06:30（对应更新记录与时间线）</span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  "use strict";
+
+  /* 移动端菜单 */
+  var menuBtn = document.getElementById('menuBtn');
+  var headNav = document.getElementById('headNav');
+  if (menuBtn && headNav) {
+    menuBtn.addEventListener('click', function(){
+      var open = headNav.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      menuBtn.textContent = open ? '收起' : '菜单';
+    });
+    headNav.addEventListener('click', function(e){
+      if (e.target.tagName === 'A' && window.innerWidth <= 720) {
+        headNav.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded','false');
+        menuBtn.textContent = '菜单';
+      }
+    });
+  }
+
+  /* 本地搜索 */
+  var q = document.getElementById('q');
+  var fb = document.getElementById('fb');
+  var index = [
+    ['雾港档案 第 4 集','悬疑 1080P 繁中 术语 公证 见证'],
+    ['旧城墙下 第 5 集','城市纪录 简中 补录 访谈'],
+    ['旧城墙下 第 2 集','声道修复 重传'],
+    ['夜行列车 第 3 集','公路 720P 片头静音 跳帧'],
+    ['早市七点半','生活 双语 时间轴 校正'],
+    ['编号 17 的档案','剧情 繁中 1998 1999 年份'],
+    ['河堤慢行','纪录 1080P 码率 拖影'],
+    ['深度解析 分集版本表','判断 对照 举证'],
+    ['体验指南 四步核对','步骤 时间戳'],
+    ['相关资讯','字幕组 术语 说明'],
+    ['条目时间线','11 月首周 回溯'],
+    ['相关推荐','标签 索引'],
+    ['常见问题','FAQ 问答']
+  ];
+  function esc(s){
+    return s.replace(/[&<>"']/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+  function render(kw){
+    var k = kw.trim().toLowerCase();
+    if (!k) { fb.classList.remove('on'); fb.innerHTML=''; return; }
+    var hits = index.filter(function(item){
+      return (item[0] + ' ' + item[1]).toLowerCase().indexOf(k) > -1;
+    });
+    var html = '';
+    if (hits.length === 0) {
+      html = '<p class="none">没有找到“' + esc(kw.trim()) + '”。可换个片名、演员或标签，例如“繁中”或“声道”。</p>';
+    } else {
+      html = '<p>找到 ' + hits.length + ' 条结果</p><ul>';
+      hits.slice(0,5).forEach(function(item){
+        html += '<li><a href="/#picks">' + esc(item[0]) + '</a><br><span style="color:#4a5568;font-size:.78rem">' + esc(item[1]) + '</span></li>';
+      });
+      html += '</ul>';
+    }
+    fb.innerHTML = html;
+    fb.classList.add('on');
+  }
+  if (q && fb) {
+    q.addEventListener('input', function(){ render(q.value); });
+    q.addEventListener('keydown', function(e){
+      if (e.key === 'Escape') { q.value=''; render(''); q.blur(); }
+    });
+    document.addEventListener('click', function(e){
+      if (!e.target.closest('.search-wrap')) fb.classList.remove('on');
+    });
+  }
+
+  /* 回到顶部 */
+  var toTop = document.getElementById('toTop');
+  function onScroll(){
+    if (window.scrollY > 420) { toTop.classList.add('show'); }
+    else { toTop.classList.remove('show'); }
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+  toTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  /* 侧栏滚动高亮 */
+  var sideLinks = Array.prototype.slice.call(document.querySelectorAll('#sideNav a'));
+  var targets = sideLinks.map(function(a){
+    var id = a.getAttribute('href').replace('/#','');
+    return document.getElementById(id);
+  }).filter(Boolean);
+  function highlight(){
+    var pos = window.scrollY + 160;
+    var idx = 0;
+    for (var i = 0; i < targets.length; i++) {
+      if (targets[i].offsetTop <= pos) idx = i;
+    }
+    sideLinks.forEach(function(a, i){
+      a.classList.toggle('active', i === idx);
+    });
+  }
+  window.addEventListener('scroll', highlight, {passive:true});
+  highlight();
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "npxvip免费在线观看",
+  "inLanguage": "zh-CN",
+  "description": "以片单、分集版本表、清晰度与字幕核对为核心的观看记录频道。"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "同一集有 720P 和 1080P，选哪个更稳？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "以《河堤慢行》为例，1080P 平均码率 2.6Mbps，暗部噪点减轻，但慢镜头拖影两版都有。若设备解码吃力，720P 反而更少卡顿；若在意暗部细节，选 1080P。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "繁中字幕里“见证”和简中“公证”差在哪？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "差在程序主体。公证需第三方机构介入，见证只要求有人在场。《雾港档案》第 4 集 27 分 40 秒的举证逻辑依赖这一点，两版译法会让观众对谁在说谎得出不同判断。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "《夜行列车》第 3 集片头没有声音，是播放问题吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不是。11-05 20:05 的说明行写得很清楚：片头 8 秒静音来自母带。43 分处的 1 秒跳帧同样是源文件问题，重下不解决。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "《旧城墙下》第 2 集重传后，画面也重制了吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "没有。11-06 15:40 的重传只修左声道缺失，左右声道电平差从 9dB 降到 1dB 以内，画面未动。同日补录的是第 5 集，属于新增素材。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "《编号 17 的档案》第 2 集到底哪一年？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "剧中字幕出现过 1998 与 1999。11-03 18:15 的标注以 1998 为准，但依据是剧中字幕与一条讨论区转述，原始档案页尚未核对，属于待确认项。"
+      }
+    }
+  ]
+}
+</script>
+</body>
+      </html>
